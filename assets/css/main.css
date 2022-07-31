@@ -2203,7 +2203,13 @@ legend {
 }
 
 .schedule-confirmation {
+	display: flex;
+	justify-content: space-between;
 	margin: 1.5rem 0;
+}
+
+.btn input {
+	cursor: pointer;
 }
 
 .checkbox-container {
