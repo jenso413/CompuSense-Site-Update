@@ -2212,6 +2212,7 @@ legend {
 .checkbox-container {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 
 .checkbox-container p {
@@ -2335,21 +2336,6 @@ section h2 {
 	}
 }
 
-@media screen and (max-width: 570px) {
-	.container  {
-		text-align: center;
-	}
-
-	#copyright {
-		margin: 4em 0 0 0;
-	}
-
-	.responsive-footer-element {
-		width: 100%;
-		margin-bottom: 2.5rem;
-	}
-}
-
 @media screen and (max-width: 1300px) {
 	
 	.two-cols.custom {
@@ -2375,6 +2361,67 @@ section h2 {
 		height: 400px;
 		width: 300px;
 		margin-bottom: 2rem;
+	}
+}
+
+@media screen and (max-width: 570px) {
+	.container  {
+		text-align: center;
+	}
+
+	#copyright {
+		margin: 4em 0 0 0;
+	}
+
+	.responsive-footer-element {
+		width: 100%;
+		margin-bottom: 2.5rem;
+	}
+
+	/* Schedule form */
+
+	.two-cols {
+		flex-direction: column;
+		gap: 1.5rem;
+	}
+
+	.two-cols > label {
+		width: 100%;
+	}
+
+	.schedule-container {
+		flex-direction: column;
+	}
+
+	.schedule-container > label, .schedule-container > div {
+		width: 100%;
+	}
+
+	.schedule-confirmation {
+		flex-direction: column;
+		align-items: center;
+		gap: 2rem;
+	}
+
+	.schedule-confirmation .checkboxes {
+		gap: 2rem;
+	}
+
+	.schedule-confirmation > div:first-of-type {
+		margin-top: 1rem;
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+
+	.line-break {
+		display: none;
+	}
+
+
+	.schedule-confirmation .btn, .schedule-confirmation .button {
+		margin-top: 0.5rem;
+		width: 100%;
 	}
 }
 

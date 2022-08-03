@@ -1,4 +1,7 @@
-let arr = [1, [2, 3], [4, 5, 6, [7, 8, 9]]]
+var isPalindrome = function(s) {
+    let replaced = s.replace(/[,]/gi, '')
+    return replaced
+};
 
-console.log(arr.flat(1000))
+console.log(isPalindrome("ll,l"))
 
