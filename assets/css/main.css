@@ -141,7 +141,7 @@ input, select, textarea {
 
 	img.left {
 		float: left;
-		margin: 2px 1.25em 0 0;
+		margin: 2px 1.25em 5px 0;
 	}
 
 	img.top {
@@ -2313,6 +2313,10 @@ section h2 {
 input[type='date'] {
 	min-height: 40px;
 	color: black;
+}
+
+#for-your-business {
+	margin: 1.5rem;
 }
 
 @media screen and (max-width: 770px) {
