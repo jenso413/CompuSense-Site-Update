@@ -1630,7 +1630,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		padding: 4em 0;
+		padding: 3em 0;
 	}
 
 /* Footer */
@@ -2064,7 +2064,7 @@ button, a {
 	margin-bottom: 3rem;
 	text-align: center;
 	width: 65%;
-	margin: 2rem auto;
+	margin: 0 auto 2rem auto;
 	padding: 0 !important;
 }
 
@@ -2309,6 +2309,10 @@ section h2 {
 	width: 100%;
 }
 
+input[type='date'] {
+	min-height: 40px;
+}
+
 @media screen and (max-width: 770px) {
 	.card {
 		width: 85%;
@@ -2338,6 +2342,8 @@ section h2 {
 
 	.footer {
 		text-align: center;
+		border-top: 1px solid #ced0b7;
+		padding-top: 3rem;
 	}
 
 	.grid .half-item {
@@ -2381,6 +2387,10 @@ section h2 {
 	#titleBar {
 		display: flex;
 		justify-content: center;
+	}
+
+	#main {
+		padding: 4em 0;
 	}
 }
 
