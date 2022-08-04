@@ -2002,7 +2002,13 @@ input, select, textarea {
 				#copyright a {
 					color: #A6A88F;
 				}
+		#page-wrapper {
+			padding: 60px 0;
+		}
 
+		h1 {
+			font-size: 1.8em;
+		}
 	}
 
 /* Custom */
