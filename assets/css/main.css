@@ -215,6 +215,10 @@ input, select, textarea {
 				margin: 1.5rem 0;
 			}
 
+			section.intro {
+				margin-bottom: 1.5rem;
+			}
+
 		}
 
 /* Row */
@@ -1708,9 +1712,9 @@ input, select, textarea {
 
 		/* Footer */
 
-			#footer-wrapper {
+			/* #footer-wrapper {
 				padding: 4em 0;
-			}
+			} */
 
 	}
 
@@ -1984,12 +1988,6 @@ input, select, textarea {
 		/* Main */
 
 			#main {
-				padding: 40px 0;
-			}
-
-		/* Footer */
-
-			#footer-wrapper {
 				padding: 40px 0;
 			}
 
@@ -2350,6 +2348,10 @@ input[type='date'] {
 		text-align: center;
 		border-top: 1px solid #ced0b7;
 		padding-top: 3rem;
+	}
+
+	#footer-wrapper {
+		padding: 0;
 	}
 
 	.grid .half-item {
