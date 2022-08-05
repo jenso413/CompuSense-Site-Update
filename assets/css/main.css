@@ -2319,11 +2319,12 @@ input[type='date'] {
 
 @media screen and (max-width: 770px) {
 	.card {
-		width: 85%;
+		width: 100%;
+		margin: 2rem auto;
 	}
 
 	.contact-header, .contact-form {
-		width: 85%;
+		width: 100%;
 	}
 
 	.contact-header h1 {
